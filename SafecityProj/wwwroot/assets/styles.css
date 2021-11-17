@@ -1,0 +1,165 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #e01a76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+body {
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  opacity: 0.5;
+  text-align: center;
+  font-size: 10px;
+}
+
+.custom-control-input:focus ~ .custom-control-label::before {
+  border-color: green !important;
+  box-shadow: 0 0 0 0.2rem rgba(255, 47, 69, 0.25) !important;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  border-color: green !important;
+  background-color: green !important;
+}
+
+.custom-control-input:active ~ .custom-control-label::before {
+  background-color: green !important;
+  border-color: green !important;
+}
+
+.custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
+  border-color: green !important;
+}
+
+.custom-control-input-green:not(:disabled):active ~ .custom-control-label::before {
+  background-color: green !important;
+  border-color: green !important;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.placement {
+  place-content: space-between;
+}
+
+.alert-img {
+  width: 140px;
+}
+
+.footer-btn {
+  border-radius: 30px;
+}
+
+.text-danger {
+  font-weight: bold;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+/* required classes */
+
+
+.first-red {
+  position: absolute;
+  width: 35px;
+  left: 319px;
+  top: 113px;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.second-red {
+  position: absolute;
+  width: 35px;
+  left: 472px;
+  top: 25px;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.third-red {
+  position: absolute;
+  width: 35px;
+  left: 660px;
+  top: 133px;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.forth-red {
+  position: absolute;
+  width: 35px;
+  left: 350px;
+  top: 307px;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+
+
+
+
+.first-green {
+  position: absolute;
+  width: 81px;
+  left: 297px;
+  top: 113px;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.second-green {
+  position: absolute;
+  width: 89px;
+  left: 444px;
+  top: 25px;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.third-green {
+  position: absolute;
+  width: 92px;
+  left: 602px;
+  top: 134px;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.forth-green {
+  position: absolute;
+  width: 89px;
+  left: 296px;
+  top: 307px;
+  image-rendering: -webkit-optimize-contrast;
+}
+
